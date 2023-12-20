@@ -1,0 +1,19 @@
+.page {
+    -fx-background-image: url("test.png");
+    -fx-background-size: cover;
+}
+
+.health-tile {
+    -fx-background-image: url("test.png");
+    -fx-background-size: cover;
+}
+
+.attack-tile {
+    -fx-background-image: url("test.png");
+    -fx-background-size: cover;
+}
+
+.defense-tile {
+    -fx-background-image: url("test.png");
+    -fx-background-size: cover;
+}

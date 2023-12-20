@@ -1,0 +1,21 @@
+<project version="4">
+  <component name="EntryPointsManager">
+    <writeAnnotations>
+      <writeAnnotation name="lombok.Getter" />
+    </writeAnnotations>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://javafx.com/fxml/1" location="$PROJECT_DIR$" />
+    <default-html-doctype>jar:file:\C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\lib\app.jar!\standardSchemas\xhtml1-transitional.xsd</default-html-doctype>
+    <xml-schema-version>XMLSchema_1_1</xml-schema-version>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK" />
+</project>

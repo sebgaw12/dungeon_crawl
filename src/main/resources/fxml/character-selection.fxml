@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane id="characterDetails" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0"
+      prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.codecool.dungeoncrawl.fxmlController.CharacterChoosingController">
+    <children>
+        <Label layoutX="322.0" layoutY="123.0" text="What they call you?">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Label>
+        <TextField id="name" layoutX="326.0" layoutY="150.0"/>
+        <Label layoutX="300.0" layoutY="252.0" text="Select your specialization">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Label>
+        <Canvas id="hunter" height="96.0" layoutX="204.0" layoutY="279.0" onMouseClicked="#selectProfession"
+                pickOnBounds="true" width="96.0">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Canvas>
+        <Canvas id="warrior" height="96.0" layoutX="500.0" layoutY="279.0" onMouseClicked="#selectProfession"
+                pickOnBounds="true" width="96.0">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Canvas>
+        <Canvas id="mage" height="96.0" layoutX="352.0" layoutY="279.0" onMouseClicked="#selectProfession"
+                pickOnBounds="true" width="96.0">
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Canvas>
+        <Button layoutX="362.0" layoutY="453.0" mnemonicParsing="false" onAction="#startGame" text="Start Game"/>
+    </children>
+</Pane>
